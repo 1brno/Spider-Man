@@ -1,0 +1,45 @@
+  a.link-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+ a.link-button .icon{
+  width: 35px;
+  height: 35px;
+  padding: 4px;
+  background-color: var(--primary-color);
+  border: solid 2px #fff;
+  background-clip: content-box;
+  border-radius: 50%;
+  position: relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ a.link-button .icon .play-icon{
+  border: solid 8px #fff;
+  width: 0;
+  height: 0;
+  border-top-color:transparent;
+  border-right-color:transparent;
+  border-bottom-color:transparent;
+  margin-right: -8px;
+}
+
+a.link-button .label{
+  margin-left:10px ;
+}
+
+
+.s-wrapper .s-main-content .s-links{
+  padding: 20px;
+  padding-left: 0;
+}
+
+.s-wrapper .s-main-content .s-links ul{
+  display: flex;
+  flex-direction: row;
+}
